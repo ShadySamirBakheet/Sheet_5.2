@@ -35,7 +35,7 @@ _MainProc PROC
 	input p3 ,e,11
 	atod e
 	add su,eax
-	mov eax,0
+	mov edx,0
 	mov eax,su
 	mov ebx,4
 	div ebx
